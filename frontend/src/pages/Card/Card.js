@@ -14,13 +14,13 @@ function Card() {
                                 src='images/tailieunam1.png'
                                 text='The Document for freshman is now available'
                                 label='Freshman'
-                                path='/services'
+                                path='/service'
                             />
                             <CardItem
                                 src='images/tailieunam2.png'
                                 text='The Document for sophomore is now available'
                                 label='Sophormore'
-                                path='/services'
+                                path='/service'
                             />
                         </ul>
                         <ul className='cards__items'>
@@ -34,13 +34,13 @@ function Card() {
                                 src='images/an7.png'
                                 text='The Post about the Linear Algebra'
                                 label='Adventure'
-                                path='/services'
+                                path='/service'
                             />
                             <CardItem
                                 src='images/an3.png'
                                 text='NNSC Group is now available on Facebook Post'
                                 label='Advertise'
-                                path='/services'
+                                path='/service'
                             />
                         </ul>
                     </div>
