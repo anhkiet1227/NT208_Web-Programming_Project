@@ -28,7 +28,7 @@ function Card() {
                                 src='images/an6.png'
                                 text='The Post about the Calculus is on air'
                                 label='Facebook Post'
-                                path='/services'
+                                path='/service'
                             />
                             <CardItem
                                 src='images/an7.png'
