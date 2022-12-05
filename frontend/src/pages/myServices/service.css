@@ -7,8 +7,17 @@
 }
 .a {
     display: flex;
+    color: white;
+    word-break: break-all;
     
     
-    
-  }
+}
+a:visited {
+  display: flex;
+  color: white;
+  word-break: break-all;
+}
+.black {
+  background-color: black;
+}
   

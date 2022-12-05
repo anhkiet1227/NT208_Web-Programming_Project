@@ -36,16 +36,21 @@ function service() {
   }
   return (
     <>
+      
       <h1 className='products'>
         Document for UIT Student
       </h1>
-      <h1>
-        {
+      
+      <h1 className='black'>
+      {
+        
           dataDownload.map((data, i) => {
+            
             return (
               <a href="#" onClick={event => Download(event, dataDownload[i])}
-                key={i}>{data.name} <br></br></a>
+                key={i}>{data.name} <br></br> </a> 
             )
+            
           })
         }
       </h1>
